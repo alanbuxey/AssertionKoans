@@ -8,7 +8,7 @@ The koans are broken out into areas by file, They are presented in order in the 
 
 Each koan builds up your knowledge of how to write good assertions and builds upon itself. It will stop at the first place you need to correct.
 
-Some koans simply need to have the correct answer substituted for an incorrect one. Some, however, require you to supply your own answer. If you see the object FILL_ME_IN listed, it is a hint to you to supply your own code in order to make it work correctly.
+Some koans simply need to have an incorrect answer substituted for the correct one. Some, however, require you to supply your own answer. If you see the object FILL_ME_IN listed, it is a hint to you to supply your own code in order to make it work correctly.
 
 ### Getting Started
 
