@@ -11,6 +11,7 @@ namespace AssertionKoans.Koans
         public void BasicAssertionUsingUnidaysShould()
         {
             // observe failure message, nice and clear right?
+            // change either the left or right side of ShouldEqual to make the test pass
             "hellllo".ShouldEqual("hello");
         }
 
