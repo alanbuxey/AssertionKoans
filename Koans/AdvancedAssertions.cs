@@ -7,6 +7,12 @@ namespace AssertionKoans.Koans
 {
 	class AdvancedAssertions : Koan
 	{
+		/*
+			There's loads of stuff you can do with object equivalence.
+
+			Here's a few ideas summarised in one step, there's more in the docs!
+		*/
+
 		class TestObject
 		{
 			public int IntValue { get; set; }

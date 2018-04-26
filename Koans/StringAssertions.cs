@@ -6,6 +6,12 @@ namespace AssertionKoans.Koans
 {
 	class StringAssertions : Koan
 	{
+        /*
+            This looks at some of the basic assertions you might use for strings.
+
+			Again, there's some comparison between Fluent Assertions and Should Extensions.
+        */
+
 		[Step(1)]
 		public void StringContainsUsingUnidaysShould()
 		{

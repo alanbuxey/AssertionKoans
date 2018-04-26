@@ -7,11 +7,22 @@ namespace AssertionKoans.Koans
 {
     class BasicAssertions : Koan
     {
+        /*
+            This is an introduction to the basic assertions of Fluent Assertions
+                as well as a comparison between it and the Should Extensions.
+
+            Making the tests pass is easy, that's not the point here.
+            Have a look at what happens when the test fails
+                and think about what is helpful in a failure message.
+
+            Once you're happy with a step, you can change the left hand side
+                to make the test pass and move on to the next step.
+        */
+
         [Step(1)]
         public void BasicAssertionUsingUnidaysShould()
         {
             // observe failure message, nice and clear right?
-            // change either the left or right side of ShouldEqual to make the test pass
             "hellllo".ShouldEqual("hello");
         }
 
@@ -40,6 +51,7 @@ namespace AssertionKoans.Koans
         public void NotNullAssertionUsingUnidaysShould()
         {
             string b = null;
+
             // does this say what is null in the error?
             b.ShouldNotBeNull();
         }
@@ -49,7 +61,7 @@ namespace AssertionKoans.Koans
         {
             string b = null;
 
-            // is this clearer
+            // is this clearer?
             b.Should().NotBeNull();
         }
 
@@ -57,6 +69,7 @@ namespace AssertionKoans.Koans
         public void NullAssertionUsingUnidaysShould()
         {
             var b = "hello";
+
             // this is not a terrible failure message
             b.ShouldBeNull();
         }

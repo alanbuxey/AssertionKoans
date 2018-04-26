@@ -6,6 +6,12 @@ namespace AssertionKoans.Koans
 {
 	class NumericAssertions : Koan
 	{
+        /*
+            This looks at some of the basic assertions you might use for numbers.
+
+			Again, there's some comparison between Fluent Assertions and Should Extensions.
+        */
+
         [Step(1)]
         public void GreaterThanComparisonUsingUnidaysShould()
         {
@@ -18,6 +24,15 @@ namespace AssertionKoans.Koans
             // also has less than equivalent
             (-1).Should().BeGreaterThan(0);
         }
+
+        /*
+            You've probably got the idea now!
+
+            Fluent Assertions does all the basics and has great failure messages.
+
+            Let's look at a couple more things we can do with numbers
+                before we move on to the cool stuff!
+        */
 
         [Step(3)]
         public void GreaterThanOrEqualUsingFluentAssertions()

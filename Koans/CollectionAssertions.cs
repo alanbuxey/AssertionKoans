@@ -6,6 +6,13 @@ namespace AssertionKoans.Koans
 {
 	class CollectionAssertions : Koan
 	{
+        /*
+            There's some great things you can do with collection assertions.
+
+            We also introduce chaining multiple assertions here,
+                though this isn't just limited to collections.
+        */
+
         class TestObject
         {
             public int IntValue { get; set; }
