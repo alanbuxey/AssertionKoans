@@ -29,11 +29,12 @@ namespace AssertionKoans.Koans
         [Step(2)]
         public void SimpleEquality()
         {
-            var item = new TestObject { IntValue = 1 };
-            var first = new [] { item };
-            var second = new [] { item };
+            var first = new [] { new TestObject { IntValue = 1 } };
+            var second = new [] { new TestObject { IntValue = 1 } };
 
-           first.Should().Equal(second); // Reference equality
+           // Reference equality
+           // comparing these two arrays won't work, try something else
+           first.Should().Equal(second);
         }
 
         [Step(3)]
@@ -42,7 +43,9 @@ namespace AssertionKoans.Koans
             var first = new [] { new TestObject { IntValue = 1 } };
             var second = new [] { new TestObject { IntValue = 1 } };
 
-            first.Should().BeEquivalentTo(FILL_ME_IN); // Equivalence comparison
+            // Equivalence comparison
+            // comparing the two arrays should work!
+            first.Should().BeEquivalentTo(FILL_ME_IN);
         }
 
         [Step(4)]
