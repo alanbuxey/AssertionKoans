@@ -1,10 +1,10 @@
 # AssertionKoans
 
-The Assertions Koans walk you along the path to enlightenment in order to learn how to write better assetions in unit tests. 
+The Assertions Koans walk you along the path to enlightenment in order to learn how to write better assertions in unit tests. 
 
 ### The Structure
 
-The koans are broken out into areas by file, They are presented in order in the PathToEnlightenment.cs file.
+The koans are broken out into areas by file, they are presented in order in the `PathToEnlightenment.cs` file.
 
 Each koan builds up your knowledge of how to write good assertions and builds upon itself. It will stop at the first place you need to correct.
 
